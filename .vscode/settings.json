@@ -1,0 +1,14 @@
+{
+  // Place your settings in this file to overwrite default and user settings.
+  "javascript.validate.enable": false,
+  "javascript.format.enable": false,
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.run": "onSave",
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "prettier.eslintIntegration": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}

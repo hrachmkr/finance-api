@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "prettier",
+    "prettier/standard"
+  ],
+  "plugins": ["prettier", "standard"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "no-use-before-define": ["error", { "functions": true, "classes": true }],
+    "eqeqeq": 2,
+    "curly": 0,
+    "no-sequences": 0,
+    "no-proto": 0,
+    "no-throw-literal": 0,
+    "no-useless-escape": 0,
+    "no-unused-vars": "error",
+    "key-spacing": 0,
+    "no-underscore-dangle": 0,
+    "no-unused-expressions": 0,
+    "no-shadow": 0,
+    "no-shadow-restricted-names": 0,
+    "no-extend-native": 0,
+    "no-var": 2,
+    "new-cap": 0,
+    "semi-spacing": 0,
+    "space-unary-ops": 0,
+    "space-infix-ops": 0,
+    "consistent-return": 0,
+    "strict": 0,
+    "camelcase": 0,
+    "max-nested-callbacks": [2, 10],
+    "max-params": ["error", 7],
+    "max-statements": [2, 15]
+  }
+}
